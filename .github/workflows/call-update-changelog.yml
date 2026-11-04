@@ -41,7 +41,9 @@ jobs:
       base_branch: ${{ inputs.base_branch }}
       distribution: ${{ inputs.distribution }}
       create_pr: ${{ inputs.create_pr }}
-    secrets: inherit
+    secrets:
+      APP_ID: ${{ secrets.APP_ID }}
+      APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
 
   show_result:
     runs-on: ubuntu-latest
