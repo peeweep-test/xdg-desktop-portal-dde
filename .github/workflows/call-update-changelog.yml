@@ -33,7 +33,7 @@ on:
 
 jobs:
   update_changelog:
-    uses: linuxdeepin/.github/.github/workflows/update-changelog.yml@master
+    uses: peeweep-test/.github/.github/workflows/update-changelog.yml@main
     with:
       version: ${{ inputs.version }}
       name: ${{ inputs.name }}
