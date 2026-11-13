@@ -1,3 +1,10 @@
+xdg-desktop-portal-dde (6.8.0) unstable; urgency=medium
+
+  * fix(ci): pass App secrets to release workflow
+  * chore: Sync by
+
+ -- Zhao Fangxun <zhaofangxun@uniontech.com>  Fri, 13 Nov 2026 14:56:09 +0800
+
 xdg-desktop-portal-dde (1.1.12) unstable; urgency=medium
 
   * i18n: Translate xdg-desktop-portal-dde_en.ts in mn (#135)
